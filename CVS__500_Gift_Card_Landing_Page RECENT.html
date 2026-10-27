@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claim Your $500 CVS Pharmacy Gift Card | ShopperPerks</title>
+  <meta name="description" content="Complete your registration to claim a $500 CVS Pharmacy gift card. Fast online registration." />
+
+  <!-- Google Fonts: Inter for UI + Playfair Display for Editorial Serif Questions -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+          },
+          colors: {
+            cvs: {
+              50: '#fff1f2',
+              100: '#ffe4e6',
+              200: '#fecdd3',
+              500: '#ef4444',
+              600: '#CC0000',  /* Official CVS Cardinal Red */
+              700: '#b91c1c',
+              800: '#991b1b',
+              900: '#7f1d1d',
+              950: '#450a0a',
+            }
+          },
+          boxShadow: {
+            'cvs-glow': '0 12px 28px -4px rgba(204, 0, 0, 0.35), 0 4px 10px -4px rgba(204, 0, 0, 0.2)',
+            'cvs-glow-lg': '0 18px 36px -6px rgba(204, 0, 0, 0.45)',
+          },
+          keyframes: {
+            pulseSubtle: {
+              '0%, 100%': { transform: 'scale(1)', opacity: '1' },
+              '50%': { transform: 'scale(1.025)', opacity: '0.95' },
+            }
+          },
+          animation: {
+            'pulse-subtle': 'pulseSubtle 2.2s infinite ease-in-out',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans flex flex-col min-h-screen selection:bg-rose-100 selection:text-cvs-800">
+
+  <!-- Top Real-time Stock Notification Bar -->
+  <aside aria-label="Announcement" class="bg-cvs-950 text-white text-[11px] sm:text-xs py-2 px-4 text-center font-medium tracking-wide flex items-center justify-center gap-2">
+    <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+    <span>Daily Allocation Window Active: <strong>$500 CVS Vouchers Remaining in Your Area</strong></span>
+  </aside>
+
+  <!-- Sticky Header Navigation -->
+  <header class="w-full border-b border-slate-200 bg-white/95 backdrop-blur-md sticky top-0 z-40 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 sm:py-3.5 flex items-center justify-between">
+      
+      <!-- Brand Logo: ShopperPerks -->
+      <a href="https://blitzrewarded.com/o/103/912896" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2.5 group focus:outline-none focus:ring-2 focus:ring-cvs-600 rounded-lg p-1">
+        <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-cvs-700 to-cvs-600 text-white flex items-center justify-center font-black shadow-md shadow-cvs-600/30 group-hover:scale-105 transition-transform">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-white" viewBox="0 0 24 24">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+        </div>
+        <span class="text-xl font-extrabold tracking-tight text-slate-900">
+          Shopper<span class="text-cvs-600">Perks</span>
+        </span>
+      </a>
+
+      <!-- Header Verification Pill & Quick Claim CTA -->
+      <div class="flex items-center gap-2.5 sm:gap-4">
+        <div class="inline-flex items-center space-x-1.5 text-xs font-semibold px-2.5 sm:px-3 py-1 rounded-full bg-rose-50 text-cvs-700 border border-rose-200 shadow-sm">
+          <svg class="w-3.5 h-3.5 text-cvs-600" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+          </svg>
+          <span class="hidden xs:inline">Verified</span> <span>CVS Deal</span>
+        </div>
+        
+        <a 
+          href="https://blitzrewarded.com/o/103/912896" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="inline-flex items-center text-xs font-extrabold px-4 py-2 bg-cvs-600 hover:bg-cvs-700 text-white rounded-xl shadow-sm transition active:scale-95"
+        >
+          Claim $500 →
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="flex-grow">
+    <section class="max-w-4xl mx-auto px-4 pt-8 sm:pt-10 pb-10 text-center">
+      
+      <!-- Category Tag -->
+      <div class="inline-flex items-center gap-1.5 mb-3 px-3.5 py-1 bg-rose-50 text-cvs-800 text-xs font-bold uppercase tracking-wider rounded-full border border-rose-200 shadow-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-cvs-600" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+        </svg>
+        CVS Pharmacy Rewards
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-[1.15] max-w-2xl mx-auto">
+        Complete Your Registration
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="mt-3 text-base sm:text-lg text-slate-600 max-w-lg mx-auto leading-relaxed">
+        Follow a few simple steps to claim your <strong class="text-slate-900 font-bold">$500 CVS Pharmacy gift card</strong> and enjoy your next shopping trip.
+      </p>
+
+      <!-- Clean Virtual Card (Numberless Minimalist Aesthetic) -->
+      <div class="mt-6 flex justify-center px-2">
+        <a 
+          href="https://blitzrewarded.com/o/103/912896" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="group block relative w-full max-w-[330px] sm:max-w-[380px] aspect-[1.586/1] rounded-2xl p-5 sm:p-6 bg-gradient-to-br from-[#CC0000] via-[#b91c1c] to-[#7f1d1d] text-white shadow-cvs-glow border border-red-400/40 transform transition hover:scale-[1.02] hover:shadow-cvs-glow-lg flex flex-col justify-between overflow-hidden text-left"
+        >
+          <!-- Subtle Glow Overlays -->
+          <div class="absolute -right-10 -top-10 w-48 h-48 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+          <div class="absolute -left-16 -bottom-16 w-48 h-48 bg-black/30 rounded-full blur-2xl pointer-events-none"></div>
+
+          <!-- Card Header: CVS Branding & $500 Badge -->
+          <div class="flex justify-between items-start z-10">
+            <div class="flex items-center space-x-2">
+              <div class="w-7 h-7 rounded-lg bg-white text-cvs-600 flex items-center justify-center font-black shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-cvs-600" viewBox="0 0 24 24">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="block text-xl font-black tracking-tight leading-none text-white drop-shadow-sm">CVS<span class="font-light text-red-100">/pharmacy</span></span>
+                <span class="text-[9px] font-bold tracking-widest uppercase text-red-200">ExtraCare Rewards</span>
+              </div>
+            </div>
+            <div class="px-2.5 py-1 bg-white/20 backdrop-blur-md rounded-lg font-extrabold text-[11px] uppercase tracking-wider border border-white/25 shadow-sm">
+              $500 VAL
+            </div>
+          </div>
+
+          <!-- Card Center: Balance & EMV Gold Chip -->
+          <div class="my-auto flex items-center justify-between z-10 pt-2">
+            <div>
+              <p class="text-[10px] text-red-200 font-semibold tracking-wider uppercase">Reward Balance</p>
+              <p class="text-3xl sm:text-4xl font-black tracking-tight drop-shadow">$500.00</p>
+            </div>
+            
+            <!-- Metallic Chip -->
+            <div class="w-11 h-8 rounded-md bg-gradient-to-br from-amber-200 via-amber-300 to-amber-500 border border-amber-200/80 flex items-center justify-center shadow-inner opacity-95">
+              <div class="w-7 h-5 border-y border-amber-700/30"></div>
+            </div>
+          </div>
+
+          <!-- Card Footer -->
+          <div class="pt-2.5 border-t border-white/20 flex justify-between items-center text-[11px] text-red-100 z-10">
+            <span class="font-medium tracking-wide">Digital E-Gift Pass</span>
+            <span class="flex items-center gap-1.5 font-bold text-white group-hover:text-amber-200 transition">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              Tap to Claim →
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3">
+        <!-- Direct Primary CTA Button -->
+        <a 
+          href="https://blitzrewarded.com/o/103/912896" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="w-full sm:w-auto px-10 py-3.5 bg-cvs-600 hover:bg-cvs-700 active:scale-95 text-white font-extrabold text-base sm:text-lg rounded-xl shadow-cvs-glow hover:shadow-red-800/50 transition duration-200 flex items-center justify-center space-x-2.5 group cursor-pointer animate-pulse-subtle"
+        >
+          <span>Claim Now</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+
+        <!-- Fast Eligibility Check Trigger -->
+        <button 
+          onclick="openSurveyModal()" 
+          class="w-full sm:w-auto px-6 py-3.5 bg-white hover:bg-slate-100 text-slate-800 font-bold text-sm sm:text-base rounded-xl border border-slate-300 shadow-sm transition active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
+        >
+          <span>Check Eligibility (30s)</span>
+          <span class="text-xs px-2 py-0.5 rounded-full bg-cvs-100 text-cvs-800 font-semibold">Instant</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 'How It Works' Section -->
+    <section class="bg-white py-14 border-y border-slate-200">
+      <div class="max-w-4xl mx-auto px-4">
+        
+        <div class="text-center mb-10">
+          <span class="text-xs font-bold tracking-wider text-cvs-600 uppercase">Step-By-Step Guide</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">How It Works</h2>
+          <p class="mt-1 text-slate-500 font-medium text-sm sm:text-base">Four simple milestones to claim your $500 CVS balance.</p>
+        </div>
+
+        <!-- 4 Step Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+          
+          <!-- Step 1 -->
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-cvs-600/40 transition-colors flex items-start space-x-4 shadow-sm">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-cvs-600 text-white font-black flex items-center justify-center text-base shadow-md shadow-cvs-600/20">
+              1
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-base">Click "Claim Now"</h3>
+              <p class="mt-1 text-sm text-slate-600 leading-snug">
+                Click any link to access the official partner registration portal.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-cvs-600/40 transition-colors flex items-start space-x-4 shadow-sm">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-cvs-600 text-white font-black flex items-center justify-center text-base shadow-md shadow-cvs-600/20">
+              2
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-base">Enter Your Details</h3>
+              <p class="mt-1 text-sm text-slate-600 leading-snug">
+                Provide your email address to lock in and hold your local reward allocation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-cvs-600/40 transition-colors flex items-start space-x-4 shadow-sm">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-cvs-600 text-white font-black flex items-center justify-center text-base shadow-md shadow-cvs-600/20">
+              3
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-base">Complete 4–6 Deals</h3>
+              <p class="mt-1 text-sm text-slate-600 leading-snug">
+                Participate in verified partner promotions (such as free apps, trial subscriptions, or games).
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-cvs-600/40 transition-colors flex items-start space-x-4 shadow-sm">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-cvs-600 text-white font-black flex items-center justify-center text-base shadow-md shadow-cvs-600/20">
+              4
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-base">Receive Your Reward</h3>
+              <p class="mt-1 text-sm text-slate-600 leading-snug">
+                Upon partner completion confirmation, your $500 digital CVS e-voucher code is delivered via email.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mid-page Callout Banner -->
+        <div class="mt-10 relative overflow-hidden bg-slate-900 rounded-3xl p-7 sm:p-9 max-w-2xl mx-auto shadow-xl text-white text-center">
+          <div class="absolute -right-16 -bottom-16 w-48 h-48 bg-cvs-600/35 rounded-full blur-3xl pointer-events-none"></div>
+          <div class="absolute -left-16 -top-16 w-48 h-48 bg-cvs-600/25 rounded-full blur-3xl pointer-events-none"></div>
+
+          <div class="relative z-10">
+            <span class="inline-block px-3 py-1 bg-white/10 text-rose-300 text-xs font-bold rounded-full uppercase tracking-wider mb-2 border border-white/10">
+              Limited Allocation Available
+            </span>
+            <h3 class="text-xl sm:text-2xl font-black tracking-tight">
+              Ready to claim your $500 CVS gift card?
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm mt-1.5 max-w-md mx-auto leading-relaxed">
+              Stock up on wellness items, vitamins, beauty, skincare, and daily snacks at zero out-of-pocket expense.
+            </p>
+            <div class="mt-5">
+              <a 
+                href="https://blitzrewarded.com/o/103/912896" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center justify-center px-8 py-3 bg-cvs-600 hover:bg-cvs-700 active:scale-95 text-white font-bold text-sm sm:text-base rounded-xl transition duration-150 shadow-md shadow-red-950/70 cursor-pointer"
+              >
+                Claim Now →
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ Section (Harmonized with Page Background & Slate Palette) -->
+    <section class="bg-slate-50 py-16 px-4">
+      <div class="max-w-[460px] sm:max-w-[500px] mx-auto">
+        
+        <!-- Elegant Serif Section Title in Slate-900 -->
+        <h2 class="font-serif text-[32px] sm:text-[38px] text-slate-900 text-center font-normal mb-8 tracking-[-0.01em]">
+          Frequently Asked Questions
+        </h2>
+        
+        <!-- Crisp White Container Blended with Slate Borders -->
+        <div class="bg-white rounded-[24px] border border-slate-200 shadow-sm overflow-hidden divide-y divide-slate-100">
+          
+          <!-- Item 1: How long do the deals take? -->
+          <div class="faq-item">
+            <button class="faq-btn w-full px-6 py-5 sm:px-7 sm:py-5.5 text-left flex justify-between items-center focus:outline-none cursor-pointer group" aria-expanded="false">
+              <span class="font-serif text-[18px] sm:text-[20px] text-slate-900 font-normal leading-snug pr-4 group-hover:text-cvs-600 transition-colors">
+                How long do the deals take?
+              </span>
+              <!-- Subtle Slate Chevron turning CVS Red on expand/hover -->
+              <svg class="faq-chevron w-4 h-4 text-slate-400 group-hover:text-cvs-600 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-answer hidden px-6 sm:px-7 pb-6 pt-0 text-[14.5px] sm:text-[15.5px] text-slate-600 leading-relaxed font-sans">
+              Most offers only take a few minutes. A few may ask for a short sign-up or free trial, but you can usually wrap up everything in under an hour.
+            </div>
+          </div>
+
+          <!-- Item 2: What exactly is a deal? -->
+          <div class="faq-item">
+            <button class="faq-btn w-full px-6 py-5 sm:px-7 sm:py-5.5 text-left flex justify-between items-center focus:outline-none cursor-pointer group" aria-expanded="false">
+              <span class="font-serif text-[18px] sm:text-[20px] text-slate-900 font-normal leading-snug pr-4 group-hover:text-cvs-600 transition-colors">
+                What exactly is a deal?
+              </span>
+              <svg class="faq-chevron w-4 h-4 text-slate-400 group-hover:text-cvs-600 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-answer hidden px-6 sm:px-7 pb-6 pt-0 text-[14.5px] sm:text-[15.5px] text-slate-600 leading-relaxed font-sans">
+              Deals are sponsored offers from our partners — things like free trials, quick sign-ups, or app downloads. Completing them is what unlocks your reward.
+            </div>
+          </div>
+
+          <!-- Item 3: How many deals do I need to complete? -->
+          <div class="faq-item">
+            <button class="faq-btn w-full px-6 py-5 sm:px-7 sm:py-5.5 text-left flex justify-between items-center focus:outline-none cursor-pointer group" aria-expanded="false">
+              <span class="font-serif text-[18px] sm:text-[20px] text-slate-900 font-normal leading-snug pr-4 group-hover:text-cvs-600 transition-colors">
+                How many deals do I need to complete?
+              </span>
+              <svg class="faq-chevron w-4 h-4 text-slate-400 group-hover:text-cvs-600 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-answer hidden px-6 sm:px-7 pb-6 pt-0 text-[14.5px] sm:text-[15.5px] text-slate-600 leading-relaxed font-sans">
+              You'll need to finish 4–6 sponsored deals to qualify for the full $500 CVS gift card.
+            </div>
+          </div>
+
+          <!-- Item 4: When will I get my reward? (Open by default with rotated CVS Red Chevron) -->
+          <div class="faq-item">
+            <button class="faq-btn w-full px-6 py-5 sm:px-7 sm:py-5.5 text-left flex justify-between items-center focus:outline-none cursor-pointer group" aria-expanded="true">
+              <span class="font-serif text-[18px] sm:text-[20px] text-slate-900 font-normal leading-snug pr-4 group-hover:text-cvs-600 transition-colors">
+                When will I get my reward?
+              </span>
+              <svg class="faq-chevron w-4 h-4 text-cvs-600 flex-shrink-0 transition-transform duration-200 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-answer px-6 sm:px-7 pb-6 pt-0 text-[14.5px] sm:text-[15.5px] text-slate-600 leading-relaxed font-sans">
+              Once your completed deals are verified, your reward is emailed to you — usually within just a few minutes.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Clean Footer -->
+  <footer class="border-t border-slate-200 bg-white py-10 text-center text-xs text-slate-500">
+    <div class="max-w-2xl mx-auto px-4 space-y-4">
+      <p class="leading-relaxed text-slate-500 text-[13px]">
+        By clicking "Claim Now", you will be redirected to our reward partner's portal to complete the required steps to receive your gift card.
+      </p>
+
+      <div class="flex flex-wrap justify-center items-center gap-x-5 gap-y-2 text-slate-600 font-medium text-xs pt-1">
+        <a href="#terms" onclick="openInfoModal('Terms of Service', 'Participation requires US residency and age 18+. To receive the reward, users must fulfill all designated partner criteria.')" class="hover:text-cvs-600 transition">Terms of Service</a>
+        <span>•</span>
+        <a href="#privacy" onclick="openInfoModal('Privacy Policy', 'Your details are safeguarded and used solely for tracking deal completions and delivering your digital gift card.')" class="hover:text-cvs-600 transition">Privacy Policy</a>
+        <span>•</span>
+        <a href="#rules" onclick="openInfoModal('Promotion Rules', 'Digital codes are dispatched once all required sponsor actions are verified by partner tracking networks.')" class="hover:text-cvs-600 transition">Official Rules</a>
+        <span>•</span>
+        <a href="https://blitzrewarded.com/o/103/912896" target="_blank" rel="noopener noreferrer" class="hover:text-cvs-700 transition font-bold text-cvs-600">Claim Reward Now</a>
+      </div>
+
+      <div class="pt-3 border-t border-slate-100 text-[11px] text-slate-400 leading-relaxed max-w-lg mx-auto">
+        <strong>Disclaimer:</strong> CVS® and CVS Pharmacy® are registered trademarks of CVS Pharmacy, Inc. ShopperPerks is an independent promotional partner and is not affiliated with, sponsored by, or endorsed by CVS Pharmacy, Inc.
+      </div>
+      
+      <p class="text-[11px] text-slate-400">© 2026 ShopperPerks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Fast Interactive Eligibility Micro-Survey Modal -->
+  <div id="surveyModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm transition-all" role="dialog" aria-modal="true">
+    <div class="bg-white w-full max-w-md rounded-2xl shadow-2xl border border-slate-200 overflow-hidden relative">
+      
+      <!-- Close Button -->
+      <button onclick="closeSurveyModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 flex items-center justify-center transition cursor-pointer z-10" aria-label="Close dialog">
+        ✕
+      </button>
+
+      <!-- Step 1: Micro Survey Questions -->
+      <div id="surveyStep1" class="p-6 sm:p-7">
+        <div class="flex items-center space-x-2 mb-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-cvs-600 animate-pulse"></span>
+          <span class="text-xs font-bold tracking-wider uppercase text-cvs-600">Quick Eligibility Check</span>
+        </div>
+        
+        <h3 class="text-xl sm:text-2xl font-black text-slate-900">
+          Verify Your $500 CVS Allocation
+        </h3>
+        <p class="text-xs text-slate-500 mt-1">
+          Answer 2 fast questions to reserve your $500 voucher slot.
+        </p>
+
+        <form id="eligibilityForm" onsubmit="handleSurveySubmit(event)" class="mt-5 space-y-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+              1. Do you shop at CVS or CVS.com?
+            </label>
+            <div class="grid grid-cols-2 gap-3">
+              <label class="flex items-center justify-center p-3 border border-slate-200 rounded-xl cursor-pointer hover:bg-rose-50 hover:border-cvs-500 has-[:checked]:border-cvs-600 has-[:checked]:bg-rose-50 transition">
+                <input type="radio" name="shop_freq" value="yes" checked class="hidden">
+                <span class="text-xs font-bold text-slate-800">Yes, Regularly</span>
+              </label>
+              <label class="flex items-center justify-center p-3 border border-slate-200 rounded-xl cursor-pointer hover:bg-rose-50 hover:border-cvs-500 has-[:checked]:border-cvs-600 has-[:checked]:bg-rose-50 transition">
+                <input type="radio" name="shop_freq" value="sometimes" class="hidden">
+                <span class="text-xs font-bold text-slate-800">Occasionally</span>
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+              2. Are you 18+ and residing in the United States?
+            </label>
+            <div class="grid grid-cols-2 gap-3">
+              <label class="flex items-center justify-center p-3 border border-slate-200 rounded-xl cursor-pointer hover:bg-rose-50 hover:border-cvs-500 has-[:checked]:border-cvs-600 has-[:checked]:bg-rose-50 transition">
+                <input type="radio" name="age_verified" value="yes" checked class="hidden">
+                <span class="text-xs font-bold text-slate-800">Yes, I am 18+</span>
+              </label>
+              <label class="flex items-center justify-center p-3 border border-slate-200 rounded-xl cursor-pointer hover:bg-rose-50 hover:border-cvs-500 has-[:checked]:border-cvs-600 has-[:checked]:bg-rose-50 transition">
+                <input type="radio" name="age_verified" value="no" class="hidden">
+                <span class="text-xs font-bold text-slate-800">Under 18</span>
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="w-full mt-3 py-3 px-6 bg-cvs-600 hover:bg-cvs-700 active:scale-95 text-white font-bold text-sm sm:text-base rounded-xl shadow-cvs-glow transition duration-150 flex items-center justify-center space-x-2 cursor-pointer">
+            <span>Verify & Continue →</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Step 2: Verification Simulation & Auto-Redirect Screen -->
+      <div id="surveyStep2" class="p-7 hidden text-center">
+        <div class="w-14 h-14 mx-auto rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mb-3 text-2xl font-black">
+          ✓
+        </div>
+        <span class="inline-block px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-bold rounded-full border border-emerald-200 mb-2">
+          Slot Approved!
+        </span>
+        <h3 class="text-xl sm:text-2xl font-black text-slate-900">
+          Redirecting to Reward Portal...
+        </h3>
+        <p class="text-xs text-slate-600 mt-2">
+          Your $500 CVS allocation pass has been confirmed. Taking you to the official registration page...
+        </p>
+
+        <div class="mt-5">
+          <a 
+            id="redirectLinkBtn"
+            href="https://blitzrewarded.com/o/103/912896" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="w-full inline-flex items-center justify-center py-3 px-6 bg-cvs-600 hover:bg-cvs-700 text-white font-bold text-sm sm:text-base rounded-xl shadow-cvs-glow transition"
+          >
+            Click here if not redirected →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Reusable Informational Modal (Terms/Privacy/Rules) -->
+  <div id="infoModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/60 backdrop-blur-sm" role="dialog" aria-modal="true">
+    <div class="bg-white max-w-sm w-full p-6 rounded-2xl shadow-2xl border border-slate-200 relative">
+      <h4 id="infoTitle" class="text-base font-bold text-slate-900 mb-2">Notice</h4>
+      <p id="infoText" class="text-xs text-slate-600 leading-relaxed"></p>
+      <div class="mt-5 text-right">
+        <button onclick="closeInfoModal()" class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold rounded-lg transition cursor-pointer">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Interactivity -->
+  <script>
+    const CTA_REDIRECT_URL = "https://blitzrewarded.com/o/103/912896";
+
+    // FAQ Accordion Toggle: Clean rotation & color highlight
+    document.querySelectorAll('.faq-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const answer = button.nextElementSibling;
+        const chevron = button.querySelector('.faq-chevron');
+        const isExpanded = !answer.classList.contains('hidden');
+
+        // Close all other open items
+        document.querySelectorAll('.faq-answer').forEach(el => el.classList.add('hidden'));
+        document.querySelectorAll('.faq-chevron').forEach(el => {
+          el.classList.remove('rotate-180', 'text-cvs-600');
+          el.classList.add('text-slate-400');
+        });
+        document.querySelectorAll('.faq-btn').forEach(el => el.setAttribute('aria-expanded', 'false'));
+
+        // Toggle the clicked item
+        if (!isExpanded) {
+          answer.classList.remove('hidden');
+          chevron.classList.add('rotate-180', 'text-cvs-600');
+          chevron.classList.remove('text-slate-400');
+          button.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Survey Modal Controls
+    function openSurveyModal() {
+      document.getElementById('surveyModal').classList.remove('hidden');
+      document.getElementById('surveyStep1').classList.remove('hidden');
+      document.getElementById('surveyStep2').classList.add('hidden');
+    }
+
+    function closeSurveyModal() {
+      document.getElementById('surveyModal').classList.add('hidden');
+    }
+
+    document.getElementById('surveyModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeSurveyModal();
+      }
+    });
+
+    // Survey Form Handler: Seamless Redirect Flow
+    function handleSurveySubmit(event) {
+      event.preventDefault();
+      document.getElementById('surveyStep1').classList.add('hidden');
+      document.getElementById('surveyStep2').classList.remove('hidden');
+
+      setTimeout(() => {
+        window.open(CTA_REDIRECT_URL, '_blank', 'noopener,noreferrer');
+      }, 900);
+    }
+
+    // Informational Popover Handlers
+    function openInfoModal(title, text) {
+      document.getElementById('infoTitle').textContent = title;
+      document.getElementById('infoText').textContent = text;
+      document.getElementById('infoModal').classList.remove('hidden');
+    }
+
+    function closeInfoModal() {
+      document.getElementById('infoModal').classList.add('hidden');
+    }
+
+    document.getElementById('infoModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeInfoModal();
+      }
+    });
+
+    // Escape Key Handler
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeSurveyModal();
+        closeInfoModal();
+      }
+    });
+  </script>
+</body>
+</html>
